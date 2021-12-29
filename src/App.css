@@ -1,0 +1,344 @@
+
+* {
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    letter-spacing: 0.5px;
+  }
+  
+  .ce-chat-list {
+    background-color: rgb(59, 58, 58) !important;
+  }
+  
+  .ce-chats-container {
+    background-color: rgb(40, 45, 48) !important;
+  }
+  
+  .ce-active-chat-card {
+    background-color: #524c58 !important;
+    width: 584px;
+    border: 2px solid #cabcdc !important;
+    border-radius: 0px !important;
+  }
+  
+  .ce-chat-subtitle-text {
+    color: rgb(133, 119, 119) !important;
+  }
+  
+  .ce-chat-form-container {
+    position: relative;
+    background: #000;
+    color: #7554a0;
+    padding-bottom: 20px !important;
+  }
+  
+  .ce-text-input {
+    border-radius: 6px !important;
+    border: 1px solid #3b2a50 !important;
+  }
+  
+  .ce-primary-button {
+    border-radius: 6px !important;
+    background-color: #7554a0 !important;
+    position: relative;
+    bottom: 1px;
+  }
+  .ce-chat-settings-container{
+    background-color: rgb(59, 58, 58) !important;
+  }
+  .ce-chat-title-form{
+    color: aqua;
+  }
+  .ce-danger-button {
+    background-color: white !important;
+    border-radius: 22px !important;
+  }
+  
+  .ce-settings {
+    background-color: rgb(59, 58, 58) !important;
+  }
+  
+  .ce-autocomplete-input {
+    border-radius: 6px !important;
+    border: 1px solid #3b2a50 !important;
+  }
+  
+  .ce-autocomplete-options {
+    border-radius: 6px !important;
+    border: 1px solid #3b2a50 !important;
+    background-color: white !important;
+  }
+  
+  .ce-chat-settings-container {
+    padding-top: 12px !important;
+  }
+  
+  .ce-chat-avatars-row {
+    display: none !important;
+  }
+  
+  /* CUSTOM FEED */
+  
+  .chat-feed {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-color: rgb(31, 28, 28);
+  }
+  
+  .chat-title-container {
+    width: calc(100% - 36px);
+    padding: 18px;
+    text-align: center;
+  }
+  
+  .chat-title {
+    color: #7554a0;
+    font-weight: 800;
+    font-size: 24px;
+  }
+  
+  .chat-subtitle {
+    color: #7554a0;
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 4px;
+  }
+  
+  .message-row {
+    float: left;
+    width: 100%;
+    display: flex;
+    margin-left: 18px;
+  }
+  
+  .message-block {
+    width: 100%;
+    
+    display: inline-block;
+  }
+  
+  .message-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px;
+  }
+  
+  .message {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    max-width: 60%;
+  }
+  
+  .message-image {
+    margin-right: 18px;
+    object-fit: cover;
+    border-radius: 6px;
+    height: 30vw;
+    /* width: 30vw; */
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
+  }
+  
+  .read-receipts {
+    position: relative;
+    bottom: 6px;
+  }
+  
+  .read-receipt {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    margin: 1.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+  
+  .message-form-container {
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 36px);
+    padding: 18px;
+    background-color: rgb(36, 29, 29);
+  }
+  
+  .message-form {
+    overflow: hidden;
+    border-radius: 6px;
+    
+    border: 2px solid #793cc4;
+    
+  }
+  
+  .message-input {
+    position: relative;
+    top: 1px;
+    height: 40px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: calc(100% - 100px);
+    background-color: rgba(163, 21, 191, 0);
+    color: white;
+    border: none;
+    padding: 0px 18px;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .image-button {
+    cursor: pointer;
+    padding: 0px 12px;
+    height: 100%;
+  }
+  
+  .send-button {
+    position: relative;
+    left: 5px;
+    padding: 0px 18px;
+    height: 42px;
+    background-color: rgb(36, 29, 29);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .send-icon {
+    top: 1px;
+    color: antiquewhite;
+    position: relative;
+    transform: rotate(-90deg);
+  }
+  
+  .picture-icon {
+    top: 1px;
+    position: relative;
+    left: 5px;
+    color: antiquewhite;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  /* FORM STYLES */
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/bcground.png);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    color: #333;
+    font-size: 1.2rem;
+      margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.322);
+    border: none;
+    width: 80%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    outline: none;
+    margin-bottom: 25px;
+  }
+  
+  .form {
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+    background: rgba(56, 49, 49, 0.713);
+  }
+
+  
+  .title {
+    position: relative;
+    top: 18px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 2.3em;;
+  }
+  
+  .button {
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+    border: none;
+    background-color: rgba(20, 120, 160, 0.753);
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+    width: 80%;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .btn-container{
+    position:absolute;
+    z-index: 1;
+    right: 60px;
+    top:10px;
+    height: 20px;
+    width:  55px;
+  }
+  .buttonl{
+    background-color: #7554a0;
+    width: 85px;
+    height: 30px;
+    font: bold;
+    font-size: large;
+    border-radius: 10%;
+  }
+  .error{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+  }
